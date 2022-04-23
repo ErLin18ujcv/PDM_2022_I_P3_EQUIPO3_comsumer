@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_caso.xml" value="0.1" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_colonias.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_confirmados.xml" value="0.25" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_estado.xml" value="0.14387031408308004" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_ingresar_confirmados.xml" value="0.358695652173913" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_ingresar_estado.xml" value="0.17255434782608695" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_ingresar_evaluacion.xml" value="0.2848731884057971" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_ingresar_usuario.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_ingresar_vacuna.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_laboratorio.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_login.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_pacientes.xml" value="0.26403985507246375" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_rol.xml" value="0.3596014492753623" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_caso_content.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_colonia_content.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_confirmado_content.xml" value="0.358695652173913" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_documento_content.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_enfermedad_content.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_estado_content.xml" value="0.17255434782608695" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_evaluacion_content.xml" value="0.2848731884057971" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_laboratorio_content.xml" value="0.29583333333333334" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_paciente_content.xml" value="0.25" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_rol_content.xml" value="0.29583333333333334" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_sintoma_content.xml" value="0.17255434782608695" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_usuario_content.xml" value="0.33" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_vacuna_content.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/row.xml" value="0.29583333333333334" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/splash_screen.xml" value="0.17831813576494426" />
+        <entry key="..\:/Descargas/PDM_2022_I_P3_EQUIPO3/app/src/main/res/xml/network_security_config.xml" value="0.3596014492753623" />
+        <entry key="..\:/PDM/proyectoFinal/Proyecto de progra/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/activity_caso.xml" value="0.25" />
+        <entry key="..\:/PDM/proyectoFinal/Proyecto de progra/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_confirmado_content.xml" value="0.1" />
+        <entry key="..\:/PDM/proyectoFinal/Proyecto de progra/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_documento_content.xml" value="0.15896739130434784" />
+        <entry key="..\:/PDM/proyectoFinal/Proyecto de progra/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_evaluacion_content.xml" value="0.15896739130434784" />
+        <entry key="..\:/PDM/proyectoFinal/Proyecto de progra/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_sintoma_content.xml" value="0.25" />
+        <entry key="..\:/PDM/proyectoFinal/Proyecto de progra/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_usuario_content.xml" value="0.25" />
+        <entry key="..\:/Users/Erlin/Desktop/PROYECTO SPING KOTLIN/Proyecto tercer parcial/PDM_2022_I_P3_EQUIPO3/app/src/main/res/layout/ingresar_evaluacion_content.xml" value="0.275" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

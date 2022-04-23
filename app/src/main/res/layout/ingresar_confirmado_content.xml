@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollFeed"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".caso.IngresarCasoActivity"
+    tools:showIn="@layout/activity_ingresar_confirmados"
+    android:background="@drawable/centre_background"
+    android:focusableInTouchMode="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/personalDetailsCard"
+        style="@style/centreLocatorCardDesign"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primaryTextColor"
+                android:text="Id Paciente:"/>
+
+            <EditText
+                android:id="@+id/txtIdPacienteConfirmado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/modifiedEditText"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primaryTextColor"
+                android:text="Laboratorio:"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinnerLaboratorios"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    style="@style/modifiedEditText"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/primaryTextColor"
+                android:text="Fecha de Examen:"/>
+
+            <EditText
+                android:id="@+id/fechaExamenConfirmado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/modifiedEditText"
+                android:inputType="date"
+                android:clickable="true"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/primaryTextColor"
+                android:text="Fecha de Entrega del Resultado:"/>
+
+            <EditText
+                android:id="@+id/fechaEntregaResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/modifiedEditText"
+                android:inputType="date"
+                android:clickable="true"
+                android:focusable="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="Recuperado"
+                    android:layout_marginRight="20dp"/>
+
+                <CheckBox
+                    android:id="@+id/recuperado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="Fallecido"
+                    android:layout_marginRight="38dp"/>
+
+                <CheckBox
+                    android:id="@+id/fallecido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fechaRecuperacionTag"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/primaryTextColor"
+                android:text="Fecha de Recuperacion:"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/fechaRecuperacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/modifiedEditText"
+                android:inputType="date"
+                android:clickable="true"
+                android:focusable="false"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/fechaFallecimientoTag"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/primaryTextColor"
+                android:text="Fecha de Fallecimiento:"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/fechaFallecimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/modifiedEditText"
+                android:inputType="date"
+                android:clickable="true"
+                android:focusable="false"
+                android:visibility="gone"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGuardarConfirmado"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/centre_button"
+                android:text="Guardar"
+                android:textColor="@color/whiteTextColor"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.core.widget.NestedScrollView>

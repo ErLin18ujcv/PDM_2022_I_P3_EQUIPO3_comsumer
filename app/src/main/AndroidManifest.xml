@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hn.edu.ujcv.pdm_2022_i_p3_equipo3">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PDM_2022_I_P3_EQUIPO3">
+        <activity
+            android:name=".laboratorio.IngresarLaboratorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".laboratorio.LaboratorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".confirmados.IngresarConfirmadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".confirmados.ConfirmadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".colonias.IngresarColoniaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".colonias.ColoniasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rol.IngresarRolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rol.RolActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".caso.CasoActivity" />
+        <activity android:name=".centros.CentroActivity" />
+        <activity android:name=".documento.DocumentoActivity" />
+        <activity android:name=".enfermedad.EnfermedadesActivity" />
+        <activity android:name=".estado.EstadoActivity" />
+        <activity android:name=".vacuna.IngresarVacunaActivity" />
+        <activity android:name=".evaluacion.EvaluacionActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity android:name=".paciente.PacientesActivity" />
+        <activity android:name=".sintomas.SintomasActivity" />
+        <activity android:name=".usuario.UsuariosActivity" />
+        <activity android:name=".vacuna.VacunasActivity" />
+        <activity android:name=".paciente.IngresarPacienteActivity" />
+        <activity android:name=".sintomas.IngresarSintomaActivity" />
+        <activity android:name=".usuario.IngresarUsuarioActivity" />
+        <activity android:name=".caso.IngresarCasoActivity" />
+        <activity android:name=".centros.IngresarCentroActivity" />
+        <activity android:name=".documento.IngresarDocumentoActivity" />
+        <activity android:name=".enfermedad.IngresarEnfermedadesActivity" />
+        <activity android:name=".estado.IngresarEstadoActivity" />
+        <activity android:name=".evaluacion.IngresarEvaluacionActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
